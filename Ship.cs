@@ -10,7 +10,7 @@ namespace BattleShip
     {
         private ICell[] _cells;
         public int Size { get; }
-        public bool IsKilled { get; }
+        public bool IsKilled { get; private set; }
         public bool NeedToBeKilled { get; }
 
         public Ship(int size, ICell[] cells)
@@ -29,11 +29,19 @@ namespace BattleShip
             return _cells[index];
         }
 
-        public GetHit()
+        private void IsKilledChek()
         {
+            int counter = 0;
             for (int i = 0; i < Size; i++)
             {
-                if 
+                if (_cells[i].IsHitted)
+                {
+                    counter++;
+                }
+            }
+            if (counter == Size)
+            {
+                IsKilled = true;
             }
         }
     }

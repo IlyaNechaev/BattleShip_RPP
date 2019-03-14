@@ -7,22 +7,29 @@ using System.Threading.Tasks;
 namespace BattleShip
 {
     class Mine : IShip
+
     {
-        ICell _cell;
+        public ICell _cell { get; }
         public int Size { get; }
-        public bool IsKilled { get; }
+        public bool IsKilled { get; private set; }
         public bool NeedToBeKilled { get; }
 
-        public Mine()
+        public Mine(ICell cell)
         {
             Size = 1;
             IsKilled = false;
             NeedToBeKilled = false;
+            _cell = cell;
         }
 
-        public ICell GetCell(int index)
+        public ICell GetCell(int index = 0)
         {
             return _cell;
+        }
+
+        public void Blow()
+        {
+            IsKilled = true;
         }
     }
 }
