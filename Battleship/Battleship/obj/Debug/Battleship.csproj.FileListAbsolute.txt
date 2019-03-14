@@ -1,0 +1,9 @@
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\Battleship\Battleship\bin\Debug\Battleship.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\Battleship\Battleship\obj\Debug\Battleship.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\Battleship\Battleship\obj\Debug\Battleship.BattleshipMainForm.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\Battleship\Battleship\obj\Debug\Battleship.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\Battleship\Battleship\obj\Debug\Battleship.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\Battleship\Battleship\bin\Debug\Battleship.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\Battleship\Battleship\bin\Debug\Battleship.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\Battleship\Battleship\obj\Debug\Battleship.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\Battleship\Battleship\obj\Debug\Battleship.pdb
